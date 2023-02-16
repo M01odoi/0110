@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+  font-family: Arial, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 19px;
+}
